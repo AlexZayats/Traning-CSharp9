@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <LangVersion>preview</LangVersion>
+    <TargetFramework>netcoreapp5.0</TargetFramework>
+    <RootNamespace>Traning_CSharp9_InitProperties</RootNamespace>
+  </PropertyGroup>
+
+</Project>
