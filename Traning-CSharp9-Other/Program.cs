@@ -31,6 +31,23 @@ namespace Traning_CSharp9_Other
             Student student = new Student();
             Customer customer = new Customer();
             //Person p = student ?? customer;
+
+            var t = new PartialClass();
+            t.DoSomeWork(out var p);
+        }
+    }
+
+    public partial class PartialClass
+    {
+        public partial int DoSomeWork(out string p);
+    }
+    public partial class PartialClass
+    {
+        public partial int DoSomeWork(out string p)
+        {
+            p = "test";
+            Console.WriteLine("Partial method");
+            return 5;
         }
     }
 }
